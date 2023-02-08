@@ -12,7 +12,7 @@ function NavBarComponent() {
 
   return (
     <>
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="mb-1">
       <Container>
         <Navbar.Brand href="/home">Freiwaldcup 2023</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
